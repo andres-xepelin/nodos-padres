@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv('data.csv')
+df = pd.read_csv('scripts/data.csv')
 
 def get_parent_dataframe(rfc, dataframe=df):
     '''
